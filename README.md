@@ -1,7 +1,7 @@
 # RTmission_backend
 
 ### Note the project is bundled with the python virtual enviroment used to create the project 
-### to activate It.
+### To Activate It.
 ```
 cd into scripts 
 ./activate
