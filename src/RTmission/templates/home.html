@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <title>save your data for free</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1 style="font-family: Verdana;"> Racing Team Misson </h1>
+        <hr>
+        <form style="display: inline-block;" method="POST">{% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value='Save'/>
+        </form>
+    </div>
+    
+</body >
+</html>
